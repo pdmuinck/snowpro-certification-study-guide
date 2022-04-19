@@ -5,17 +5,17 @@
 
  ### 1.1 Explain how to manage Snowflake accounts.
 
-  [Account usage] (https://docs.snowflake.com/en/sql-reference/account-usage.html)
-  [Information schema] (https://docs.snowflake.com/en/sql-reference/info-schema.html)
+  [Account usage](https://docs.snowflake.com/en/sql-reference/account-usage.html)
+  [Information schema](https://docs.snowflake.com/en/sql-reference/info-schema.html)
 
  ### 1.2 Outline security principles.
 
-  [Multi-factor Authentication (MFA)] (https://docs.snowflake.com/en/user-guide/security-mfa.html)
-  [Data Encryption] (https://docs.snowflake.com/en/user-guide/security-encryption.html)
-  [Network Security & Policies] (https://docs.snowflake.com/en/user-guide/network-policies.html)
-  [Access Control] (https://docs.snowflake.com/en/user-guide/security-access-control.html)
-  [Federated Authentication] (https://docs.snowflake.com/en/user-guide/admin-security-fed-auth.html)
-  [Single Sign-On (SSO)] (https://docs.snowflake.com/en/user-guide/admin-security-fed-auth.html)
+  [Multi-factor Authentication (MFA)](https://docs.snowflake.com/en/user-guide/security-mfa.html)
+  [Data Encryption](https://docs.snowflake.com/en/user-guide/security-encryption.html)
+  [Network Security & Policies](https://docs.snowflake.com/en/user-guide/network-policies.html)
+  [Access Control](https://docs.snowflake.com/en/user-guide/security-access-control.html)
+  [Federated Authentication](https://docs.snowflake.com/en/user-guide/admin-security-fed-auth.html)
+  [Single Sign-On (SSO)](https://docs.snowflake.com/en/user-guide/admin-security-fed-auth.html)
 
  ### 1.3 Define the entities and roles that are used in Snowflake.
 
@@ -24,13 +24,13 @@
   
  ### 1.4 Explain the Security capabilities associated with each Snowflake edition.
 
-  [Data masking] (https://docs.snowflake.com/en/user-guide/security-column-ddm.html)
+  [Data masking](https://docs.snowflake.com/en/user-guide/security-column-ddm.html)
 
  ### 1.5 Outline Data Governance capabilities in Snowflake
 
   Data masking 
   Account usage views (see Account Usage 1.1)
-  [External Tokenization] (https://docs.snowflake.com/en/user-guide/security-column-ext-token.html)
+  [External Tokenization](https://docs.snowflake.com/en/user-guide/security-column-ext-token.html)
 
 ## 2.0 Domain: Virtual Warehouses
 
