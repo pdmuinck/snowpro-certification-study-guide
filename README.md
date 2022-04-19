@@ -36,73 +36,56 @@
 
  ### 2.1 Outline compute principles.
 
-  - Credit usage & billing
-  - Concurrency
-  - Caching
+  - [Credit usage & billing](https://docs.snowflake.com/en/user-guide/admin-usage-billing.html)
+  - [Concurrency](https://www.youtube.com/watch?v=MfM4Qit_iGE), video
+  - [Caching](https://community.snowflake.com/s/article/Caching-in-Snowflake-Data-Warehouse)
 
  ### 2.2 Explain Virtual Warehouse best practices.
 
-  - Scale up vs scale out
-  - Types of virtual warehouses
-  - Management/monitoring
+  - [Scale up vs scale out, types of warehouses, management/monitoring](https://docs.snowflake.com/en/user-guide/warehouses.html)
 
 ## 3.0 Domain: Data Movement
 
- ### 3.1 Outline different commands used to load data and when they should be used.
+ ### 3.1 Data Loading
+ 
+ [Documenation](https://docs.snowflake.com/en/user-guide-data-load.html)
 
-  - COPY
-  - INSERT
-  - PUT
-  - GET
-  - VALIDATE
+ ### 3.2 Outline how data can be unloaded from Snowflake to either local storage or cloud storage locations.
 
- ### 3.2 Define bulk as compared to continuous data loading methods.
+  [Documentation](https://docs.snowflake.com/en/user-guide-data-unload.html)
 
-  - COPY
-  - Snowpipe
+ ### 3.3 Explain how to work and load semi-structured data.
 
- ### 3.3 Define best practices that should be considered when loading data.
-
-  - File size
-  - Folders
-
- ### 3.4 Outline how data can be unloaded from Snowflake to either local storage or cloud storage locations.
-
-  - Define formats supported for unloading data from Snowflake
-  - Define best practices that should be considered when unloading data
-
- ### 3.5 Explain how to work and load semi-structured data.
-
-  - Supported file formats
-  - VARIANT column
-  - Flattening the nested structure
+  [Documentation](https://docs.snowflake.com/en/user-guide/semistructured-concepts.html)
 
 ## 4.0 Domain: Performance Management
 
  ### 4.1 Outline best practices for Snowflake performance management on storage.
 
-  - Clustering
-  - Materialized views
-  - Search Optimization
+  - [Clustering](https://docs.snowflake.com/en/user-guide/tables-micro-partitions.html)
+  - [Materialized views](https://docs.snowflake.com/en/user-guide/views-materialized.html)
+  - [Search Optimization](https://docs.snowflake.com/en/user-guide/search-optimization-service.html)
 
  ### 4.2 Outline best practices for Snowflake performance management on virtual warehouses.
 
-  - Query performance and analysis
-  - Query profiles
-  - Query history
+  - [Query performance and analysis](https://community.snowflake.com/s/article/Checklist-Query-Performance)
+  - [Query profiles](https://docs.snowflake.com/en/user-guide/ui-query-profile.html)
+  - [Query history](https://docs.snowflake.com/en/sql-reference/account-usage/query_history.html)
   - SQL optimization
-  - Caching
+  - Caching (see 2.1)
 
 ## 5.0 Domain: Snowflake Overview & Architecture
 
  ### 5.1 Outline key components of Snowflake’s Cloud data platform.
 
-  - Data types
-  - Continuous data protection
-  - Cloning
-  - Types of Caching
+  - [Data types](https://docs.snowflake.com/en/sql-reference/data-types.html)
+  - [Continuous data protection](https://docs.snowflake.com/en/user-guide/data-cdp.html)
+  - [Cloning](https://docs.snowflake.com/en/user-guide/object-clone.html)
+  - Types of Caching (see 2.1)
   - Web Interface (UI)
-  - Data Cloud/Data Sharing/ Data Marketplace/ Data Exchange
+  - [Data Marketplace](https://other-docs.snowflake.com/en/data-marketplace.html)
+  - [Data Sharing](https://docs.snowflake.com/en/user-guide/secure-data-sharing-across-regions-plaforms.html)
+  - [Data Exchange](https://docs.snowflake.com/en/user-guide/data-exchange.html)
 
  ### 5.2 Outline Snowflake data sharing capabilities.
 
@@ -119,16 +102,15 @@
 
  ### 5.4 Outline the different editions that are available, and the functionality associated with each edition.
 
-  - Pricing
-  - Features
+  - [Pricing & Features](https://docs.snowflake.com/en/user-guide/intro-editions.html)
 
  ### 5.5 Identify Snowflake’s Partner Ecosystem
 
-  - Cloud Partners
-  - Connectors
+  - [Documentation](https://docs.snowflake.com/en/user-guide/ecosystem.html)
 
  ### 5.6 Outline and define the purpose of Snowflake’s three distinct layers.
 
+  - [Docs](https://docs.snowflake.com/en/user-guide/intro-key-concepts.html)
   - Storage Layer
   - Compute Layer
   - Cloud Services Layer
