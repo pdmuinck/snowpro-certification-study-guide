@@ -82,17 +82,18 @@
   - [Continuous data protection](https://docs.snowflake.com/en/user-guide/data-cdp.html)
   - [Cloning](https://docs.snowflake.com/en/user-guide/object-clone.html)
   - Types of Caching (see 2.1)
-  - Web Interface (UI)
+  - [Web Interface (UI)](https://docs.snowflake.com/en/user-guide/ui-snowsight.html)
+  - [Classic UI](https://docs.snowflake.com/en/user-guide/ui-using.html)
   - [Data Marketplace](https://other-docs.snowflake.com/en/data-marketplace.html)
   - [Data Sharing](https://docs.snowflake.com/en/user-guide/secure-data-sharing-across-regions-plaforms.html)
   - [Data Exchange](https://docs.snowflake.com/en/user-guide/data-exchange.html)
 
  ### 5.2 Outline Snowflake data sharing capabilities.
 
-  - Account types
-  - Data Marketplace & Exchange
-  - Access Control options
-  - Shares
+  - Account types (see 5.4)
+  - Data Marketplace & Exchange (see 5.1)
+  - Access Control options (see 1.2)
+  - [Shares](https://docs.snowflake.com/en/user-guide/data-sharing-provider.html)
 
  ### 5.3 Explain how Snowflake is different compared to legacy warehouse solutions.
 
@@ -117,28 +118,22 @@
   
  ### 5.7 Outline Snowflake’s catalog and objects.
 
-  - Database
-  - Schema
-  - Tables Types
-  - View Types
-  - Data Types
-  - External Functions
+  - [Database, tables, views](https://docs.snowflake.com/en/user-guide/databases.html)
+  - [Schema](https://docs.snowflake.com/en/sql-reference/ddl-database.html)
+  - [External Functions](https://docs.snowflake.com/en/sql-reference/external-functions.html)
 
 ## 6.0 Domain: Storage and Protection
 
 ### 6.1 Outline Snowflake Storage concepts.
 
-  - Micro partitions
-  - Metadata Types
-  - Clustering
-  - Data Storage
-  - Stage Types
-  - File Formats
-  - Storage Monitoring
+  - [Metadata Types](https://docs.snowflake.com/en/sql-reference/metadata.html)
+  - [Clustering and micro partitions](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions.html)
+  - [Data Storage](https://docs.snowflake.com/en/user-guide/credits.html#data-storage-usage)
+  - [Stage Types](https://docs.snowflake.com/en/sql-reference/sql/create-stage.html)
+  - [File Formats](https://docs.snowflake.com/en/sql-reference/sql/create-file-format.html)
+  - [Storage Monitoring](https://docs.snowflake.com/en/user-guide/tables-storage-considerations.html)
 
  ### 6.2 Outline Continuous Data Protection with Snowflake.
 
-  - Time Travel
-  - Fail Safe
-  - Data Encryption
-  - Cloning
+  - [Time Travel & Fail Safe](https://docs.snowflake.com/en/user-guide/data-availability.html)
+  - [Data Encryption](https://docs.snowflake.com/en/user-guide/security-encryption.html)
